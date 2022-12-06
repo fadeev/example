@@ -16,6 +16,9 @@ faucet:
   coins:
     - 5token
     - 100000foocoin
+validators:
+  - name: alice
+    bonded: 100000000foocoin
 genesis:
   app_state:
     staking:
